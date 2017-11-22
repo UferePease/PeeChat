@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FireChatApp</string>
+    <string name="need_a_new_account">Need a New Account?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="display_name">Display Name</string>
+    <string name="log_out">Log Out</string>
+</resources>
