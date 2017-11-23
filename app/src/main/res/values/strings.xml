@@ -6,4 +6,7 @@
     <string name="create_account">Create Account</string>
     <string name="display_name">Display Name</string>
     <string name="log_out">Log Out</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="login">Login</string>
 </resources>

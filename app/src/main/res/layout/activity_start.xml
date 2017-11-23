@@ -4,28 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.firechatapp.StartActivity">
+    tools:context="com.android.firechatapp.StartActivity"
+    android:background="@color/colorPrimary">
 
     <TextView
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:ems="8"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Welcome to Fire Chat App"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="center" />
 
     <Button
-        android:id="@+id/start_reg_btn"
-        android:layout_width="wrap_content"
+        android:id="@+id/start_signin_btn"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:text="@string/need_a_new_account" />
+        android:layout_marginTop="40dp"
+        android:text="Already Have an Account"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_signin_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/need_a_new_account"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="#fff"
+        android:textStyle="bold"/>
 </RelativeLayout>
